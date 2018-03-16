@@ -7,16 +7,15 @@
   };
   var $checkIcon = $('<i class="icon-check"></i>');
   $dc.ready(function() {
-    localforage.getItem('apps', function(err, value) {
-      local_storage_apps = JSON.parse(value);
-      local_storage_apps.r_labelstyle = {};
-      localforage.getItem('r_labelstyle:type', function(err, value) {
-        if (value) {
-          type = value;
-        }
-        init();
-      });
+    type = APPS.settings.find(function(settingsObj) {
+      if (settingsObj.name === 'r_labelstyle_labelstyle') {
+        return settingsObj.value;
+      }
     });
+    if (!type) {
+      type = 'default';
+    }
+    init();
   });
 
   var init = function() {

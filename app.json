@@ -11,7 +11,7 @@
 	"icon": "apps/r_labelstyle/img/icon128.png",
 	"settings_description": "Label Styling Plugin for Restyaboard",
 	"settings": {
-	  "labelstyle": {
+	  "r_labelstyle_labelstyle": {
 	    "label": "Label style",
 	    "info": "'default' or 'tag'",
 	    "value": "default",
