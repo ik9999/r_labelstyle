@@ -1,0 +1,30 @@
+{
+	"id": "r_labelstyle",
+	"uid": "",
+	"name": "LabelStyle",
+	"description": "LabelStyle",
+	"author": "ik9999",
+	"author_email": "q@eqw.me",
+	"author_url": "",
+	"version": "0.1.0",
+	"price": "Free",
+	"icon": "apps/r_labelstyle/img/icon128.png",
+	"settings_description": "",
+	"settings": {
+	  "labelstyle": {
+	    "label": "Label style",
+	    "info": "'default' or 'tag'",
+	    "value": "default",
+	    "is_public": true
+	  }
+	},
+	"assets": {
+		"css": [
+			"apps/r_hide_card_created_date/css/app.css"
+		],
+		"js": [
+			"apps/r_hide_card_created_date/js/app.js"
+		]
+	},
+	"enabled": true
+}
