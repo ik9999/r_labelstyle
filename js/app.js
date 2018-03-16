@@ -6,17 +6,6 @@
   var $btnByType = {
   };
   var $checkIcon = $('<i class="icon-check"></i>');
-  $dc.ready(function() {
-    type = APPS.settings.find(function(settingsObj) {
-      if (settingsObj.name === 'r_labelstyle_labelstyle') {
-        return settingsObj.value;
-      }
-    });
-    if (!type) {
-      type = 'default';
-    }
-    init();
-  });
 
   var init = function() {
       //var template = '   <li>  '  + 
@@ -88,4 +77,17 @@
     Backbone.history.stop(); 
     Backbone.history.start(); 
   };
+
+  $dc.ready(function() {
+    type = APPS.settings.find(function(settingsObj) {
+      if (settingsObj.name === 'r_labelstyle_labelstyle') {
+        return settingsObj.value;
+      }
+    });
+    if (!type) {
+      type = 'default';
+    }
+    init();
+  });
+
 })();
