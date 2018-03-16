@@ -79,13 +79,13 @@
   };
 
   $dc.ready(function() {
-    type = APPS.settings.find(function(settingsObj) {
+    var settingsObj = APPS.settings.find(function(settingsObj) {
       if (settingsObj.name === 'r_labelstyle_labelstyle') {
-        return settingsObj.value;
+        return settingsObj;
       }
     });
-    if (!type) {
-      type = 'default';
+    if (settingsObj) {
+      type = settingsObj.value;
     }
     init();
   });
