@@ -13,7 +13,7 @@
 	"settings": {
 	  "r_labelstyle_labelstyle": {
 	    "label": "Label style",
-	    "info": "'default' or 'tag'",
+	    "info": "'default' or 'tags'",
 	    "value": "default",
 	    "is_public": true
 	  }
