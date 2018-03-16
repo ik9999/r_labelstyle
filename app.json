@@ -20,10 +20,10 @@
 	},
 	"assets": {
 		"css": [
-			"apps/r_hide_card_created_date/css/app.css"
+			"apps/r_labelstyle/css/app.css"
 		],
 		"js": [
-			"apps/r_hide_card_created_date/js/app.js"
+			"apps/r_labelstyle/js/app.js"
 		]
 	},
 	"enabled": true
