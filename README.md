@@ -9,3 +9,5 @@ Display labels with names.
 ## Usage
 
 After installing the app, go to Admin - Apps - LabelStyle settings - Change "Label style" value to "tags". Now relogin.
+
+Set writing permissions on r_labelstyle/app.json
