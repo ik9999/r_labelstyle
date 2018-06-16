@@ -14,7 +14,7 @@ Goto Restyaboard app directory.e.g., directory: /usr/share/nginx/html/restyaboar
 
 Unzip the downloaded LabelStyle app (r_labelstyle directory) into your restyaboard app directory
 
-Give file permission to unzipped files which are in client/apps/r_labelstyle/ pathe.g., `chmod -R 0777 client/apps/r_labelstyle/`
+Give file permission to unzipped files which are in client/apps/r_labelstyle/ pathe.g., `chmod -R 777 client/apps/r_labelstyle/`
 
 Configure LabelStyle on http://{YOUR_SERVER_NAME}/#/apps/r_labelstyle path in your Restyaboard server.
 
@@ -23,5 +23,3 @@ Clear the browser cache, login again to create board with LabelStyle app.
 ## Usage
 
 After installing the app, go to Admin - Apps - LabelStyle settings - Change "Label style" value to "tags". Now relogin.
-
-Set writing permissions on r_labelstyle/app.json
