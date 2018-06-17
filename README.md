@@ -8,7 +8,7 @@ Display labels with names.
 
 ## Installation
 
-Download LabelStyle app `wget https://github.com/ik9999/r_labelstyle/releases/download/v1.0/dist.zip`
+Download LabelStyle app `wget https://github.com/ik9999/r_labelstyle/releases/download/v1.1/dist.zip`
 
 Goto Restyaboard app directory.e.g., directory: /usr/share/nginx/html/restyaboard/
 
